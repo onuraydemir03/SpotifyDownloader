@@ -10,7 +10,10 @@ class User(Obj):
         self.username = username
         self._client = access_point
         playlists = self._client.user_playlists(user=self.username, limit=50).get('items', [])
+        self.playlists = []
         for playlist in playlists:
             playlist_id = playlist.get('id')
             playlist = Playlist(id=playlist_id,
                                 access_point=self._client)
+            self.playlists.append(playlist)
+            print("")

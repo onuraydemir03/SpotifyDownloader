@@ -18,4 +18,3 @@ if __name__ == '__main__':
     client = Client(args=args)
     user = User(username="oaydemir4898",
                 access_point=client.access_point)
-    user.playlists
