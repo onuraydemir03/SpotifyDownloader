@@ -33,7 +33,7 @@ def parse_args():
 
 args = parse_args()
 app = FastAPI()
-client = Client(args=args)
+client = Client()
 
 
 class MyEncoder(JSONEncoder):
