@@ -16,5 +16,6 @@ def parse_args():
 if __name__ == '__main__':
     args = parse_args()
     client = Client(args=args)
-    user = User(username="oaydemir4898",
+    user = User(id="oaydemir4898",
                 access_point=client.access_point)
+    print("")

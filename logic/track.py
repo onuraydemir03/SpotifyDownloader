@@ -11,14 +11,26 @@ class Track(Obj):
             if k == "artists":
                 artists = []
                 for artist in v:
-                    artists.append(Artist(id=artist.get('id'),
-                                          access_point=self._client))
+                    artists.append({
+                        "_id": artist.get('id'),
+                        "name": artist.get('name')
+                    })
                 setattr(self, k, artists)
             elif k == "album":
-                setattr(self, k, Album(id=v.get('id'),
-                                       access_point=self._client))
+                setattr(self, k, {
+                    "_id": v.get('id'),
+                    "name": v.get("name")
+                })
             else:
                 setattr(self, k, v)
 
     def __repr__(self):
-        return self.name
+        return getattr(self, "name")
+
+    def to_dict(self):
+        return_dict = {}
+        for key, value in self.__dict__.items():
+            if key in self._drop_keys:
+                continue
+            return_dict[key] = value
+        return return_dict
