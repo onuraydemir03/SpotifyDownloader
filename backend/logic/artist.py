@@ -1,4 +1,4 @@
-from logic.template import Obj
+from backend.logic.template import Obj
 
 
 class Artist(Obj):

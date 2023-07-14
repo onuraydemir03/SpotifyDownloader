@@ -1,4 +1,3 @@
-import argparse
 import os
 from json import JSONEncoder
 
@@ -6,15 +5,18 @@ import uvicorn
 from fastapi import FastAPI
 from pydantic.v1.generics import GenericModel
 
-from logic.album import Album
-from logic.playlist import Playlist
-from logic.spotify import Client
-from logic.track import Track
-from logic.user import User
-from logic.artist import Artist
+from backend.logic.album import Album
+from backend.logic.playlist import Playlist
+from backend.logic.spotify import Client
+from backend.logic.track import Track
+from backend.logic.user import User
+from backend.logic.artist import Artist
 from typing import Generic, Optional, TypeVar
 
+
 T = TypeVar('T')
+app = FastAPI()
+client = Client()
 
 
 class Response(GenericModel, Generic[T]):
@@ -23,23 +25,15 @@ class Response(GenericModel, Generic[T]):
     message: str
     result: Optional[T]
 
-def parse_args():
-    parser = argparse.ArgumentParser(prog="Spotify Music Downloader",
-                                     description="Downloads mp3 files with Spotify song tags from Youtube")
-    parser.add_argument("--client-id", type=str, default="e9132514a8c846ec922ee49f9f3e0d7f")
-    parser.add_argument("--client-secret", type=str, default="c70660aeb63244c380c1f1f33053c6de")
-    args = parser.parse_args()
-    return args
-
-args = parse_args()
-app = FastAPI()
-client = Client()
-
 
 class MyEncoder(JSONEncoder):
     def default(self, o):
         return o.__dict__
 
+
+@app.get("/")
+async def user(user_id: str):
+    return {"message": "Camed here"}
 
 @app.get("/user")
 async def user(user_id: str):
