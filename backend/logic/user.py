@@ -1,8 +1,7 @@
 import spotipy.client
 
-from exceptions import NoneTrackException
-from logic.playlist import Playlist
-from logic.template import Obj
+from backend.exceptions import NoneTrackException
+from backend.logic.template import Obj
 
 
 class User(Obj):

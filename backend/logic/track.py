@@ -1,6 +1,4 @@
-from logic.album import Album
-from logic.artist import Artist
-from logic.template import Obj
+from backend.logic.template import Obj
 
 
 class Track(Obj):
