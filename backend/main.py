@@ -1,5 +1,5 @@
-from backend.logic.spotify import Client
-from backend.logic.user import User
+from backend.logic2 import Client
+from backend.logic2 import User
 
 
 # def parse_args():
