@@ -1,16 +1,20 @@
+import io
+import json
 import os
+import time
 from json import JSONEncoder
 
 import spotipy
 import uvicorn
 from fastapi import FastAPI
+from fastapi.responses import StreamingResponse
 from pydantic.v1.generics import GenericModel
 
 
 from typing import Generic, Optional, TypeVar
 
 from youtubesearchpython import VideosSearch
-
+from pytube import YouTube
 from backend.entities.entities import User, Playlist, Artist, Album, Track
 
 T = TypeVar('T')
@@ -22,6 +26,13 @@ class Response(GenericModel, Generic[T]):
     message: str
     result: Optional[T]
 
+class ObjectEncoder(JSONEncoder):
+    """
+    This is needed to save object into json file
+    """
+
+    def default(self, o):
+        return o.__dict__
 
 class MyEncoder(JSONEncoder):
     def default(self, o):
@@ -36,9 +47,10 @@ async def user(user_id: str):
         **user.__dict__,
         "playlists": list(map(lambda playlist: playlist.__dict__, user.playlists))
     }
+    json.dump(response_dict, open("user.json", "w"), indent=1, cls=ObjectEncoder)
     return Response(status="Ok",
                     code="200",
-                    message=f"User {user.name} got successfully.",
+                    message=f"User got successfully.",
                     result=response_dict)
 
 
@@ -54,7 +66,7 @@ async def playlist(playlist_id: str):
     }
     return Response(status="Ok",
                     code="200",
-                    message=f"Playlist {playlist.name} got successfully.",
+                    message=f"Playlist got successfully.",
                     result=response_dict)
 
 @app.get("/artist")
@@ -69,7 +81,7 @@ async def artist(artist_id: str):
     }
     return Response(status="Ok",
                     code="200",
-                    message=f"Artist {artist.name} got successfully.",
+                    message=f"Artist got successfully.",
                     result=response_dict)
 
 @app.get("/album")
@@ -84,7 +96,7 @@ async def track(album_id: str):
     }
     return Response(status="Ok",
                     code="200",
-                    message=f"Album {album.name} got successfully.",
+                    message=f"Album got successfully.",
                     result=response_dict)
 
 
@@ -93,14 +105,28 @@ async def track(track_id: str):
     track = Track.from_id(_id=track_id)
     track.set_artists()
     artist_names = ', '.join(list(map(lambda art: art.name, track.artists)))
-    result = VideosSearch(f'{artist_names} - {track.name}', limit=1).result().get('result')[0]
+    title = artist_names + " - " + track.name
     return Response(status="Ok",
                     code="200",
-                    message=f"Track {track.name} got successfully.",
-                    result={"link": result.get('link')})
+                    message=f"Track got successfully.",
+                    result={"title": title})
 
 
+@app.get('/download')
+async def download(title: str):
+    try:
+        result = VideosSearch(title, limit=1).result().get('result')[0]
+        yt = YouTube(url=result.get('link'))
+        audio = yt.streams.get_audio_only()
 
-#
+        audio_buffer = io.BytesIO()
+        audio.stream_to_buffer(audio_buffer)
+        audio_data = audio_buffer.getvalue()
+        return StreamingResponse(iter([audio_data]), media_type="audio/mpeg")
+    except Exception as exc:
+        return {"Exception": str(exc)}
+
 if __name__ == '__main__':
+    Playlist.from_id(_id="3qb6Gwfo4NRGItqTm8jmDu")
+    print("Playlist..")
     uvicorn.run("app:app", host="0.0.0.0", port=int(os.environ.get("PORT", 8085)))

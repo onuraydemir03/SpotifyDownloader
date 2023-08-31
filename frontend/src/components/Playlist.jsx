@@ -6,7 +6,6 @@ import "../styles/Playlist.css";
 const Playlist = () => {
     const [queryResult, setQueryResult] = useState();
     const [tracks, setTracks] = useState();
-    const [refreshFlag, setRefreshFlag] = useState(false);
 
     const fetchData = async () => {
         const urlParams = new URLSearchParams(window.location.search);
@@ -26,10 +25,9 @@ const Playlist = () => {
         .then(response => {
         setQueryResult(response.result);
         setTracks(response.result.tracks);
-        setRefreshFlag(!refreshFlag);
         })
         .catch(error => console.log(error));
-    }, [refreshFlag]);
+    }, []);
     
     if (!queryResult) return null;
     console.log(queryResult);

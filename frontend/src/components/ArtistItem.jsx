@@ -1,6 +1,6 @@
 import { LuMusic2 } from "react-icons/lu";
 import { MdAlbum } from "react-icons/md";
-
+import { handleTrack } from "./AlbumItem";
 const ArtistItem = (props) => {
     console.log(props);
     return (
@@ -12,7 +12,7 @@ const ArtistItem = (props) => {
                         <div className="track-item">
                             <h4>
                                 <LuMusic2 className="logo"/>
-                                <a href={"/track?track_id=" + track._id}>{track.name}</a>
+                                <button id={track._id} onClick={handleTrack}>{track.name}</button>
                             </h4>
                         </div>
                     ))

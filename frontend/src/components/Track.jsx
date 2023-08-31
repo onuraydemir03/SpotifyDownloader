@@ -3,7 +3,25 @@ import TrackItem from "./TrackItem";
 
 
 const Track = () => {
-    const [track, setTrack] = useState();
+    const [title, setTitle] = useState();
+
+    const downloadData = async (title) => {
+        const urlParams = new URLSearchParams(window.location.search);
+        const response = await fetch("/download?title=" + encodeURIComponent(title));
+        if (response.ok){
+            const blob = await response.blob();
+            const url = window.URL.createObjectURL(blob);
+            const link = document.createElement("a");
+
+            link.href = url;
+            link.download = title + ".mp3";
+
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+        return title;
+    }
 
     const fetchData = async () => {
         const urlParams = new URLSearchParams(window.location.search);
@@ -15,20 +33,20 @@ const Track = () => {
         },
         });
         const jsonData = await response.json();
+        downloadData(jsonData.title);
         return jsonData;
     }
 
     useEffect( () => {
         fetchData()
         .then(response => {
-        setTrack(response.result);
+            setTitle(response.title);
         })
         .catch(error => console.log(error));
     }, []);
     
-    if (!track) return null;
-    console.log(track);
-    window.location.replace(track.link);
+    if (!title) return null;
+    console.log(title);
 }
 
 export default Track;
