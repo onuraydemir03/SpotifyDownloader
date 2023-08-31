@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import ArtistItem from "./ArtistItem";
 
+import "../styles/Artist.css";
+
 const Artist = () => {
     const [artist, setArtist] = useState();
 
@@ -28,8 +30,11 @@ const Artist = () => {
     if (!artist) return null;
     console.log(artist);
     return (
-    <div>
-        <ArtistItem artist={artist}/>
+    <div className="container">
+        <div className="artist-item">
+            <ArtistItem artist={artist}/>
+        </div>
+        
     </div>
     );
 }

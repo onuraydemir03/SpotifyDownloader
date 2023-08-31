@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from "react";
 import TrackItem from "./TrackItem";
 
+import "../styles/Playlist.css";
+
 const Playlist = () => {
     const [queryResult, setQueryResult] = useState();
     const [tracks, setTracks] = useState();
+    const [refreshFlag, setRefreshFlag] = useState(false);
 
     const fetchData = async () => {
         const urlParams = new URLSearchParams(window.location.search);
@@ -23,27 +26,32 @@ const Playlist = () => {
         .then(response => {
         setQueryResult(response.result);
         setTracks(response.result.tracks);
+        setRefreshFlag(!refreshFlag);
         })
         .catch(error => console.log(error));
-    }, []);
+    }, [refreshFlag]);
     
     if (!queryResult) return null;
     console.log(queryResult);
     return (
-    <div>
-        <h1>{queryResult.name}</h1>
-        <p>Includes {tracks.length} tracks.</p>
-        {
-            tracks.map((track) => {
-                return (
-                    <li>
-                        <ul>
-                            <TrackItem track={track}/>
-                        </ul>
-                    </li>
-                );
-            })
-        }
+    <div className="container">
+        <h1 className="header">{queryResult.name}</h1>
+        <div>
+            <div className="row">
+                {
+                    tracks.map((track) => {
+                        return (
+                            <div className="col-lg-12 col-md-6 col-12">
+                                <div className=" track-item">
+                                    <TrackItem track={track}/>
+                                </div>
+                                <hr/>
+                            </div>
+                        );
+                    })
+                }
+            </div>
+        </div>
     </div>
     );
 }

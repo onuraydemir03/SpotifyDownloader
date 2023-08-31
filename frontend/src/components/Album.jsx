@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import AlbumItem from "./AlbumItem";
-
+import "../styles/Album.css";
 
 const Album = () => {
     const [album, setAlbum] = useState();
@@ -29,8 +29,10 @@ const Album = () => {
     if (!album) return null;
     console.log(album);
     return (
-    <div>
-        <AlbumItem album={album}/>
+    <div className="container">
+        <div className="album-item">
+            <AlbumItem album={album}/>
+        </div>
     </div>
     );
 }

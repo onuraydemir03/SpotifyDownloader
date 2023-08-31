@@ -1,33 +1,31 @@
-
-
+import { BsPeople } from "react-icons/bs";
+import { LuMusic2 } from "react-icons/lu";
 const AlbumItem = (props) => {
     return (
         <div>
-            <h1>{props.album.name}</h1>
+            <h1 className="header">{props.album.name}</h1>
             <h2>Artists</h2>
-            <ol>
-                {
-                    props.album.artists.map((artist) => (
-                        <li>
-                            <h4>
-                                <a href={"/artist?artist_id=" + artist._id}>{artist.name}</a>
-                            </h4>
-                        </li>
-                    ))
-                }
-            </ol>
+            {
+                props.album.artists.map((artist) => (
+                    <div className="item">
+                        <h4>
+                            <BsPeople className="logo"/>
+                            <a href={"/artist?artist_id=" + artist._id}>{artist.name}</a>
+                        </h4>
+                    </div>
+                ))
+            }
             <h2>Tracks</h2>
-            <ol>
-                {
-                    props.album.tracks.map((track) => (
-                        <li>
-                            <h4>
-                                <a href={"/track?track_id=" + track._id}>{track.name}</a>
-                            </h4>
-                        </li>
-                    ))
-                }
-            </ol>
+            {
+                props.album.tracks.map((track) => (
+                    <div className="item">
+                        <h4>
+                            <LuMusic2 className="logo"/>
+                            <a href={"/track?track_id=" + track._id}>{track.name}</a>
+                        </h4>
+                    </div>
+                ))
+            }
         </div>
     )
 }

@@ -1,14 +1,15 @@
-
-
+import { LuLibrary } from "react-icons/lu";
 
 const PlaylistItem = (props) => {
     console.log(props.playlist);
     return (
-        <div>
-            <h3>
-                <a href={"/playlist?playlist_id=" + props.playlist._id}>{props.playlist.name}</a>
-            </h3>
-        </div>
+        <a href={"/playlist?playlist_id=" + props.playlist._id}>
+            <div>
+                <h3>
+                    <LuLibrary className="logo"/> {props.playlist.name}
+                </h3>
+            </div>
+        </a>
     )
 }
 
