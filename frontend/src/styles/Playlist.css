@@ -1,0 +1,29 @@
+.track-item a{
+    text-decoration: none;
+}
+.track-item, .track-item a{
+    font-size: 1rem;
+    color: #EFE1D1;
+}
+
+.track-item:hover a, .track-item:hover{
+    background-color: #EFE1D1; 
+    color: #3F2E3E;
+}
+
+.track-item .track{
+    padding: 0% 1%;
+    margin-bottom: 0.5rem;
+}
+
+hr{
+    background-color: transparent;
+    width: 5%;
+    border-top: .5rem dotted #EFE1D1;
+}
+
+.track-item:hover hr{
+    background-color: transparent;
+    width: 5%;
+    border-top: .5rem dotted #3F2E3E;
+}

@@ -1,0 +1,20 @@
+.album-item a{
+    text-decoration: none;
+}
+.album-item, .album-item button{
+    font-size: 1rem;
+    color: #EFE1D1;
+    background-color: #3F2E3E;
+    background: none;
+    border: none;
+}
+
+.album-item a{
+    font-size: 1rem;
+    color: #EFE1D1;
+}
+
+.album-item .item:hover button, .album-item .item:hover, .album-item .item:hover a{
+    background-color: #EFE1D1; 
+    color: #3F2E3E;
+}

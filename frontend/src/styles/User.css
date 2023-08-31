@@ -1,0 +1,35 @@
+body{
+    background-color: #331D2C;
+    text-decoration: none;
+}
+
+.row-item a {
+    color: #EFE1D1;
+}
+.row-item{
+    background-color: #3F2E3E;
+    padding: 2% 1%;
+    margin-bottom: 0.5rem;
+}
+
+.header{
+    text-align: center;
+    border: 5px solid;
+    background-color: #EFE1D1;
+    color: #331D2C;
+    margin: 0.1rem 2%;
+    font-size: 3rem;
+}
+
+.row-item:hover, .row-item:hover a{
+    background-color: #EFE1D1;
+    border-color: #3F2E3E;
+    color: #3F2E3E;
+    text-decoration: none;
+}
+
+.logo{
+    margin: 0% 2%;
+}
+
+
