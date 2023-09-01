@@ -1,0 +1,31 @@
+.artist-item, .artist-item a{
+    font-size: 1rem;
+    color: #EFE1D1;
+}
+.artist-item a{
+    text-decoration: none;
+}
+.artist-item .track-item:hover a, .artist-item .track-item:hover, .artist-item .album-item:hover a, .artist-item .album-item:hover {
+    background-color: #EFE1D1; 
+    color: #3F2E3E;
+}
+.artist-item button{
+    background: none;
+    border: none;
+    color: #EFE1D1;
+    font-size: 1rem;
+}
+
+.artist-item button:hover{
+    background: none;
+    border: none;
+    color: #3F2E3E;
+}
+.header{
+    text-align: center;
+    border: 5px solid;
+    background-color: #EFE1D1;
+    color: #331D2C;
+    margin: 0.3rem 2%;
+    font-size: 3rem;
+}
