@@ -27,7 +27,6 @@ const Album = () => {
     }, []);
     
     if (!album) return null;
-    console.log(album);
     return (
     <div className="container">
         <div className="album-item">

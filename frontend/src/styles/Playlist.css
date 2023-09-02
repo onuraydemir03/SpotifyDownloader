@@ -6,7 +6,17 @@
     color: #EFE1D1;
 }
 
-.track-item:hover a, .track-item:hover{
+.track-item button{
+    font-size: 1rem;
+    color: #EFE1D1;
+    background-color: #3F2E3E;
+    background: none;
+    border: none;
+    margin-bottom: 0.5rem;
+    padding: 1% 0%;
+}
+
+.track-item:hover a, .track-item:hover, .track-item:hover button{
     background-color: #EFE1D1; 
     color: #3F2E3E;
 }

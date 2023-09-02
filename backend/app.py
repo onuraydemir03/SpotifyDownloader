@@ -122,7 +122,9 @@ async def download(title: str):
         audio_buffer = io.BytesIO()
         audio.stream_to_buffer(audio_buffer)
         audio_data = audio_buffer.getvalue()
-        return StreamingResponse(iter([audio_data]), media_type="audio/mpeg")
+        content_length = len(audio_data)
+        return StreamingResponse(iter([audio_data]), media_type="audio/mpeg",
+                                 headers={"Content-Length": str(content_length)})
     except Exception as exc:
         return {"Exception": str(exc)}
 

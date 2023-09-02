@@ -4,7 +4,7 @@ import User from "./components/User"
 import Playlist from "./components/Playlist"
 import Artist from "./components/Artist";
 import Album from "./components/Album";
-import Track from "./components/Track"
+// import Track from "./components/Track"
 import Enter from "./components/Enter";
 import Download from "./components/Download";
 const App = () => {
@@ -14,7 +14,7 @@ const App = () => {
       <Route exact path='/' element={<Enter/>}/>
       <Route exact path='/user' element={<User/>}/>
       <Route exact path='/playlist' element={<Playlist/>}/>
-      <Route exact path='/track' element={<Track/>}/>
+      {/* <Route exact path='/track' element={<Track/>}/>/ */}
       <Route exact path='/artist' element= {<Artist/>}/>
       <Route exact path='/album' element= {<Album/>}/>
       <Route exact path='/download' element={<Download/>}/>

@@ -40,7 +40,7 @@ const Playlist = () => {
                     tracks.map((track) => {
                         return (
                             <div className="col-lg-12 col-md-6 col-12">
-                                <div className=" track-item">
+                                <div className=" track-item item">
                                     <TrackItem track={track}/>
                                 </div>
                                 <hr/>
