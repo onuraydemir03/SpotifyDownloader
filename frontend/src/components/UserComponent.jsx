@@ -1,10 +1,12 @@
+import "../styles/User.css"
+
 
 const UserComponent = ({user}) => {
     return (
-        <div>
-            {user.display_name}
+        <div className="user">
             <img src={user.images[0].url} alt="ProfileImage"/>
-            <p>Has {user.followers.total} follower</p>
+            <p className="username">{user.display_name}</p>
+            <p className="follower">Has {user.followers.total} follower</p>
         </div>
     )
 }

@@ -22,14 +22,17 @@ const Playlist = () => {
         getPlaylist()
     }, [])
     return (
-        <div>
+        <div className="container">
             <UserComponent user={user}/>
-            <PlaylistComponent playlist={playlist}/>
-            <DownloadButtonComponent downloadItem={playlist.tracks}/>
+            <div className="sample-playlist">
+                <PlaylistComponent playlist={playlist}/>
+                <DownloadButtonComponent downloadItem={playlist.tracks}/>
+            </div>
+            
             {
                 playlist.tracks?.map((track, idx) => (
                     <div idx={idx}>
-                        <TrackComponent track={track}/>
+                        <TrackComponent track_id={idx} track={track}/>
                     </div>
                 ))
             }

@@ -33,16 +33,19 @@ const User = () => {
     
     
     return (
-        <>
+        <div className="container">
             <UserComponent user={user}/>
-            {
-                response.playlists?.map((playlist, idx) => (
-                    <div key={idx} onClick={() => handlePlaylistClick(playlist)}>
-                        <PlaylistComponent playlist={playlist}/>
-                    </div>   
-                ))
-            }
-        </>
+            <div className="playlists">
+                {
+                    response.playlists?.map((playlist, idx) => (
+                        <div key={idx} onClick={() => handlePlaylistClick(playlist)}>
+                            <PlaylistComponent idx={idx} playlist={playlist}/>
+                        </div>   
+                    ))
+                }
+            </div>
+            
+        </div>
     )
 
 }

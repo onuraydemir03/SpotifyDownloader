@@ -1,0 +1,33 @@
+.track{
+    display: flex;
+}
+
+.track .track-id{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #141E46;
+    color: #FFF5E0;
+    padding: 2% 1%;
+    width: 4%;
+}
+.track .track-row{
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1% 2%;
+    background-color: #FF6969;
+    color: #FFF5E0;
+    border-radius: 25px;
+    border-bottom: 1px solid #FFF5E0;
+}
+
+.track .track-row:hover{
+    background-color: #FFF5E0;
+    color: #FF6969;
+}
+
+.track .track-row p{
+    flex: 1;
+}

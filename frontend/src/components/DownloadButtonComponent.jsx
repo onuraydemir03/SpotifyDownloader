@@ -1,13 +1,13 @@
 import { useEffect, useRef, useState } from "react"
 import fetchData from "../utils/Request";
 import axios, {CancelToken, isCancel} from "axios";
-import ProgressBarComponent from "./ProgressBarComponent";
-
-
+import {FiDownload} from "react-icons/fi"
+import {MdCancel} from "react-icons/md"
+import "../styles/Download.css"
 
 const DownloadButtonComponent = ({downloadItem}) => {
     const [isDownloading, setDownloading] = useState(false);
-    const [btnText, setBtnText] = useState("Download");
+    const [btnText, setBtnText] = useState(<FiDownload/>);
     const cancelDownloading = useRef(null);
     const downloadProgress = useRef(0);
     const totalProgress = useRef(0);
@@ -39,9 +39,9 @@ const DownloadButtonComponent = ({downloadItem}) => {
 
     const handleBtnText = async (downloadItem) => {
         if (isDownloading)
-            setBtnText("Download")
+            setBtnText(<FiDownload/>)
         else
-            setBtnText("Cancel Download")
+            setBtnText(<MdCancel/>)
         setDownloading(!isDownloading)
         if (isDownloading){
             console.log("Aborting..")
@@ -49,7 +49,7 @@ const DownloadButtonComponent = ({downloadItem}) => {
         }else{
             await download(downloadItem).then(() => {
                 console.log("Download completed...");
-                setBtnText("Download");
+                setBtnText(<FiDownload/>);
                 setDownloading(!isDownloading);
             }).catch((exc) => console.log(exc));
             
@@ -81,8 +81,8 @@ const DownloadButtonComponent = ({downloadItem}) => {
 
     useEffect(() => {}, [totalProgress.current]);
     return (
-        <div onClick={() => handleBtnText(downloadItem)}>
-            <ProgressBarComponent percentage={totalProgress.current}/>
+        <div className="download-btn">
+            <button onClick={() => handleBtnText(downloadItem)}>{btnText}</button>
         </div>
     )
 }

@@ -3,6 +3,8 @@ import axios from "axios";
 import UserComponent from "../components/UserComponent";
 import { useNavigate } from "react-router-dom";
 import fetchData from "../utils/Request";
+import "../styles/Search.css"
+
 
 const Search = () => {
     const [userUrl, setUserUrl] = useState("");
@@ -27,22 +29,27 @@ const Search = () => {
     }
 
     return (
-        <>
-            <input value={userUrl} onChange={(e) => setUserUrl(e.target.value)} placeholder="User url ex: https://open.spotify.com/user/oaydemir4898"></input>
-            <button onClick={searchUser}>Search</button>
-            {
-                user != null ? (
-                    user != false ? (
-                    <div onClick={handleUserClick}>
-                        <UserComponent user={user}/>
-                    </div>): (
-                        <div>
-                            User not found.
-                        </div>
-                    )
-                ): null
-            }
-        </>
+        <div className="container search">
+            <div className="search-bar">
+                <input value={userUrl} onChange={(e) => setUserUrl(e.target.value)} placeholder="User url ex: https://open.spotify.com/user/oaydemir4898"></input>
+                <button onClick={searchUser}>Search</button>
+            </div>
+            <div>
+                {
+                    user != null ? (
+                        user != false ? (
+                        <div onClick={handleUserClick}>
+                            <UserComponent user={user}/>
+                        </div>): (
+                            <div>
+                                User not found.
+                            </div>
+                        )
+                    ): null
+                }
+            </div>
+            
+        </div>
     )
 }
 

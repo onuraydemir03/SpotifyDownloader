@@ -1,0 +1,59 @@
+.playlist{
+    display: flex;
+}
+.playlist .playlist-row{
+    width: 100%;
+    background-color: #FF6969;
+    display: flex;
+    align-items: center;
+    color: #FFF5E0;
+    padding: 2% 1%;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    border-bottom: 1px solid #FFF5E0;
+}
+
+.playlist .playlist-row p{
+    width: 100%;
+    justify-content: center;
+}
+
+.playlist .playlist-row:hover{
+    background-color: #FFF5E0;
+    color: #FF6969;
+}
+
+.playlist .playlist-row .playlist-name{
+    margin-left: 1%;
+}
+
+.playlist .playlist-id{
+    background-color: #141E46;
+    color: #FFF5E0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 2% 1%;
+}
+
+
+.sample-playlist{
+    display: flex;
+    align-items: center;
+    background-color: #FF6969;
+    color: #FFF5E0;
+    margin-bottom: 2%;
+    border: 0;
+    padding: 0 2%;
+    border-radius: 25px;
+}
+
+.sample-playlist:hover{
+    background-color: #FFF5E0;
+    color: #FF6969;
+}
+.sample-playlist .playlist{
+    flex: 1;
+    border: 0;
+    padding: 0;
+}

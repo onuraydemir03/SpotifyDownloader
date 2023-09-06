@@ -1,22 +1,18 @@
 
+import "../styles/ProgressBarComponent.css"
 
 const ProgressBarComponent = ({percentage}) => {
-    const inline_style = {
-        border: "2px solid red"
-    }
-    if (percentage > 0){
-        return (
-            <div style={inline_style}>
-            This is a progress bar : {percentage}..
-            </div>
-        )
-    }else{
-        return (
-            <div style={inline_style}>
-            Download.
-            </div>
-        )
-    }
+    let btn_text = "";
+    if (percentage > 0)
+        btn_text  = "This is a progress bar : {percentage}.."   
+    else
+        btn_text = "Download"
+
+    return(
+        <button>
+            {btn_text}
+        </button>
+    )
 }
 
 
