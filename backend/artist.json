@@ -1,0 +1,322 @@
+{
+ "_id": "6z7oJJfl0VPdH5sFgogqMq",
+ "name": "Mary Jane",
+ "albums": [
+  {
+   "_id": "0izMgrnesKzSAz5M2SwJ3s",
+   "name": "Bu Defter Kapans\u0131n",
+   "release_date": "2022-09-09",
+   "artists": [
+    {
+     "_id": "6z7oJJfl0VPdH5sFgogqMq",
+     "name": "Mary Jane",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "tracks": null
+  },
+  {
+   "_id": "6R02OztAhwVDuz4BPSDLJM",
+   "name": "Seni Yazd\u0131m",
+   "release_date": "2022-04-22",
+   "artists": [
+    {
+     "_id": "6z7oJJfl0VPdH5sFgogqMq",
+     "name": "Mary Jane",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "tracks": null
+  },
+  {
+   "_id": "54Xe1CKErLJSSz1G0beNVv",
+   "name": "Yoklu\u011fun Ve Ben",
+   "release_date": "2021-10-28",
+   "artists": [
+    {
+     "_id": "6z7oJJfl0VPdH5sFgogqMq",
+     "name": "Mary Jane",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "tracks": null
+  },
+  {
+   "_id": "4DH8sVaq0aRBue7C4o0sc4",
+   "name": "Yaz Bunu Bir Kenara",
+   "release_date": "2021-08-01",
+   "artists": [
+    {
+     "_id": "6z7oJJfl0VPdH5sFgogqMq",
+     "name": "Mary Jane",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "tracks": null
+  },
+  {
+   "_id": "60QVnqdOsGssGauy0AAIH5",
+   "name": "Mevsim Bahar",
+   "release_date": "2021-06-15",
+   "artists": [
+    {
+     "_id": "6z7oJJfl0VPdH5sFgogqMq",
+     "name": "Mary Jane",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "tracks": null
+  },
+  {
+   "_id": "1hX22KP7pE5sSC3TYy8m2o",
+   "name": "Deniz \u00dcst\u00fc K\u00f6p\u00fcr\u00fcr",
+   "release_date": "2021-02-25",
+   "artists": [
+    {
+     "_id": "6z7oJJfl0VPdH5sFgogqMq",
+     "name": "Mary Jane",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "tracks": null
+  },
+  {
+   "_id": "6Cv6GuUkiIRUr4nkvN1hF4",
+   "name": "\u0130ki Keklik",
+   "release_date": "2021-01-21",
+   "artists": [
+    {
+     "_id": "6z7oJJfl0VPdH5sFgogqMq",
+     "name": "Mary Jane",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "tracks": null
+  },
+  {
+   "_id": "2Puv0PfMFx5wRA4kPFqCTI",
+   "name": "Ne G\u00fczeldik Oysa Biz",
+   "release_date": "2021-01-14",
+   "artists": [
+    {
+     "_id": "6z7oJJfl0VPdH5sFgogqMq",
+     "name": "Mary Jane",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "tracks": null
+  },
+  {
+   "_id": "1iuCC05QOMQnV27yiHuG8K",
+   "name": "\u00c7i\u00e7ekler A\u00e7ar (Akustik)",
+   "release_date": "2020-12-20",
+   "artists": [
+    {
+     "_id": "6z7oJJfl0VPdH5sFgogqMq",
+     "name": "Mary Jane",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "tracks": null
+  },
+  {
+   "_id": "0d19skfUR0NkArhfiHn6G5",
+   "name": "Akl\u0131m Hep Onda",
+   "release_date": "2020-11-04",
+   "artists": [
+    {
+     "_id": "6z7oJJfl0VPdH5sFgogqMq",
+     "name": "Mary Jane",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "tracks": null
+  },
+  {
+   "_id": "5LbLIz6LVfAzBcHiZfcydM",
+   "name": "\u00c7i\u00e7ekler A\u00e7ar",
+   "release_date": "2020-09-29",
+   "artists": [
+    {
+     "_id": "6z7oJJfl0VPdH5sFgogqMq",
+     "name": "Mary Jane",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "tracks": null
+  },
+  {
+   "_id": "1Tk0PJW0ez6BqR2P9TkMov",
+   "name": "T\u00f6vbe",
+   "release_date": "2020-08-28",
+   "artists": [
+    {
+     "_id": "6z7oJJfl0VPdH5sFgogqMq",
+     "name": "Mary Jane",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "tracks": null
+  },
+  {
+   "_id": "2ChvvyTyr12MSHYYZEw40y",
+   "name": "Seni Ar\u0131yorum",
+   "release_date": "2020-07-19",
+   "artists": [
+    {
+     "_id": "6z7oJJfl0VPdH5sFgogqMq",
+     "name": "Mary Jane",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "tracks": null
+  },
+  {
+   "_id": "3RPzjsUNvbwQuGcsQIPQjR",
+   "name": "Akusticontest (Akustikhane)",
+   "release_date": "2019-09-09",
+   "artists": [
+    {
+     "_id": "0LyfQWJT6nXafLPZqxe9Of",
+     "name": "Various Artists",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "tracks": null
+  },
+  {
+   "_id": "3FNFeO6YWvy0Etdzqwl120",
+   "name": "Selahattin Sar\u0131kaya \u015eark\u0131lar\u0131 I",
+   "release_date": "2022-11-25",
+   "artists": [
+    {
+     "_id": "0LyfQWJT6nXafLPZqxe9Of",
+     "name": "Various Artists",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "tracks": null
+  },
+  {
+   "_id": "4Nur36KwKoYEYDyOqIPiD4",
+   "name": "Still Smokin\u2019 & Leanin\u2019, Vol. 1 (Screwed & Chopped)",
+   "release_date": "2004-06-01",
+   "artists": [
+    {
+     "_id": "6c9ajys1EwUM02OFouamFX",
+     "name": "D-Red",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "tracks": null
+  }
+ ],
+ "popular_tracks": [
+  {
+   "_id": "16JqJONK1Zq1PqURtvDYFT",
+   "name": "T\u00f6vbe",
+   "duration_ms": 181028,
+   "added_by": null,
+   "added_at": null,
+   "artists": null,
+   "album": null
+  },
+  {
+   "_id": "5kK95XNLLMOXAh57f1YHsh",
+   "name": "Mevsim Bahar",
+   "duration_ms": 303159,
+   "added_by": null,
+   "added_at": null,
+   "artists": null,
+   "album": null
+  },
+  {
+   "_id": "2wK30oYGv5vdxuHzxDbaNE",
+   "name": "Deniz \u00dcst\u00fc K\u00f6p\u00fcr\u00fcr",
+   "duration_ms": 248317,
+   "added_by": null,
+   "added_at": null,
+   "artists": null,
+   "album": null
+  },
+  {
+   "_id": "79kOOJzqvz2N0PgTbwmjKx",
+   "name": "Ne G\u00fczeldik Oysa Biz",
+   "duration_ms": 199691,
+   "added_by": null,
+   "added_at": null,
+   "artists": null,
+   "album": null
+  },
+  {
+   "_id": "2D6LlA7bssEfdM3QOOyF1E",
+   "name": "Yaz Bunu Bir Kenara",
+   "duration_ms": 238634,
+   "added_by": null,
+   "added_at": null,
+   "artists": null,
+   "album": null
+  },
+  {
+   "_id": "0oech8xP90e4w4DqUfHTLV",
+   "name": "Seni Yazd\u0131m",
+   "duration_ms": 265642,
+   "added_by": null,
+   "added_at": null,
+   "artists": null,
+   "album": null
+  },
+  {
+   "_id": "37phRDyJK8f3xpY240NWX1",
+   "name": "\u00d6l\u00fcnce Sevemezsem Seni - Canl\u0131 Kay\u0131t",
+   "duration_ms": 313499,
+   "added_by": null,
+   "added_at": null,
+   "artists": null,
+   "album": null
+  },
+  {
+   "_id": "6YdrbNhac1najugNMyJhOl",
+   "name": "Bu Defter Kapans\u0131n",
+   "duration_ms": 291261,
+   "added_by": null,
+   "added_at": null,
+   "artists": null,
+   "album": null
+  },
+  {
+   "_id": "0ZWfqzyrhvgpUvn3ElLOSP",
+   "name": "\u0130ki Keklik",
+   "duration_ms": 346800,
+   "added_by": null,
+   "added_at": null,
+   "artists": null,
+   "album": null
+  },
+  {
+   "_id": "0IXzA55wJqFrL3goGfU23k",
+   "name": "\u00c7i\u00e7ekler A\u00e7ar",
+   "duration_ms": 182642,
+   "added_by": null,
+   "added_at": null,
+   "artists": null,
+   "album": null
+  }
+ ]
+}

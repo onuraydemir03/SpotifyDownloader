@@ -1,0 +1,783 @@
+{
+ "_id": "7BQoJPzSl3JSVgSxSI770f",
+ "name": "Ker4mos",
+ "owner": {
+  "_id": "oaydemir4898",
+  "name": "oaydemir4898",
+  "playlists": null
+ },
+ "tracks": [
+  {
+   "_id": "5kK95XNLLMOXAh57f1YHsh",
+   "name": "Mevsim Bahar",
+   "duration_ms": 303159,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-05-29T10:30:18Z",
+   "artists": [
+    {
+     "_id": "6z7oJJfl0VPdH5sFgogqMq",
+     "name": "Mary Jane",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "60QVnqdOsGssGauy0AAIH5",
+    "name": "Mevsim Bahar",
+    "release_date": "2021-06-15",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "0oech8xP90e4w4DqUfHTLV",
+   "name": "Seni Yazd\u0131m",
+   "duration_ms": 265642,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-05-29T10:30:25Z",
+   "artists": [
+    {
+     "_id": "6z7oJJfl0VPdH5sFgogqMq",
+     "name": "Mary Jane",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "6R02OztAhwVDuz4BPSDLJM",
+    "name": "Seni Yazd\u0131m",
+    "release_date": "2022-04-22",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "4WBMMoqjsofE9fdSXSU41S",
+   "name": "Firuze",
+   "duration_ms": 195957,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-05-29T10:30:34Z",
+   "artists": [
+    {
+     "_id": "5PRW6j58xEEWL4DDVEITKT",
+     "name": "Dedubl\u00fcman",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "69EMFMME82E5gKCIrOIt9I",
+    "name": "Firuze",
+    "release_date": "2023-04-28",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "6fuA28tFxMmsx7bmB1bsw4",
+   "name": "I Wouldn't Mind",
+   "duration_ms": 200059,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-05-29T10:30:56Z",
+   "artists": [
+    {
+     "_id": "6yFbpXlBH8XHVQGjUPUvKU",
+     "name": "He Is We",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "6bGUvby5IoUa2yDoQvcsAs",
+    "name": "Fall out of Line",
+    "release_date": "2017-03-15",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "1dX6oGAG5PaexuPj29PsYd",
+   "name": "I Can't Go on Without You",
+   "duration_ms": 377000,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-05-29T10:31:04Z",
+   "artists": [
+    {
+     "_id": "7jdFEYD2LTYjfwxOdlVjmc",
+     "name": "KALEO",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "4he4SQup02hEIQdwhZlZlk",
+    "name": "A/B",
+    "release_date": "2016-06-10",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "2VBluJiNj9bKohWX0dY1Lh",
+   "name": "Last Hope",
+   "duration_ms": 309973,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-05-29T10:31:12Z",
+   "artists": [
+    {
+     "_id": "74XFHRwlV6OrjEM0A2NCMF",
+     "name": "Paramore",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "4sgYpkIASM1jVlNC8Wp9oF",
+    "name": "Paramore",
+    "release_date": "2013-04-05",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "1FXY2aaOfhUEewQzs6ZZ7x",
+   "name": "Kar\u015f\u0131y\u0131m",
+   "duration_ms": 238690,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-05-29T10:31:17Z",
+   "artists": [
+    {
+     "_id": "64d1rUxfizSAOE9UbMnUZd",
+     "name": "Sezen Aksu",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "6VREPzIN5iod9DJRsTfJrR",
+    "name": "DEMO 2",
+    "release_date": "2022-11-11",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "0qprlw0jfsW4H9cG0FFE0Z",
+   "name": "Cold Little Heart",
+   "duration_ms": 597600,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-05-29T10:31:25Z",
+   "artists": [
+    {
+     "_id": "0bzfPKdbXL5ezYW2z3UGQj",
+     "name": "Michael Kiwanuka",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "0qxsfpy2VU0i4eDR9RTaAU",
+    "name": "Love & Hate",
+    "release_date": "2016-07-15",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "5jsqqmZ8wyYQzAmaZRI4I6",
+   "name": "Yolum A\u00e7\u0131k",
+   "duration_ms": 161308,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-05-29T10:31:35Z",
+   "artists": [
+    {
+     "_id": "0L3wrFI3QcbXAvFL7IaPQX",
+     "name": "G\u00fcne\u015f",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "27gonUY4k1BepMXBLJsfWu",
+    "name": "Yolum A\u00e7\u0131k",
+    "release_date": "2023-04-28",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "3nnG7AM9QopHVPEuLX3Khk",
+   "name": "Let It Go",
+   "duration_ms": 260532,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-05-29T10:31:46Z",
+   "artists": [
+    {
+     "_id": "4EzkuveR9pLvDVFNx6foYD",
+     "name": "James Bay",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "3GqsyMrJu3o8jLiGyBsBQW",
+    "name": "Chaos And The Calm",
+    "release_date": "2015-03-20",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "6VykgFCh1xV2cOSklhQi4f",
+   "name": "Simply Falling",
+   "duration_ms": 238946,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-05-29T10:31:56Z",
+   "artists": [
+    {
+     "_id": "2gJiBZCUPgMDAqtqYtgJwA",
+     "name": "Iyeoka",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "0jF2Tnrj7A2vqb2gfaAnfl",
+    "name": "Say Yes Evolved",
+    "release_date": "2014-03-21",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "3X7Iy2X4NRbb8gbDYb2xVq",
+   "name": "Padi\u015fah\u0131m",
+   "duration_ms": 153562,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-05-29T10:32:02Z",
+   "artists": [
+    {
+     "_id": "6c5OFegHscPZXitA884R1b",
+     "name": "Paptircem",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "1ZWb1817n5EoBpgjTkCi4S",
+    "name": "Padi\u015fah\u0131m",
+    "release_date": "2023-04-28",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "4oUAcimZn8t9uu6oDwdiqN",
+   "name": "F\u0131rt\u0131nam",
+   "duration_ms": 245527,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-05-29T10:32:09Z",
+   "artists": [
+    {
+     "_id": "66vIaZFb8okZH0npc4eQ5q",
+     "name": "emre ayd\u0131n",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "5TqoxlLhYKgQxFkVaOP8pz",
+    "name": "F\u0131rt\u0131nam",
+    "release_date": "2023-04-07",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "2tcTksk6qFbYSaZogGmgfO",
+   "name": "Zal\u0131m",
+   "duration_ms": 268207,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-05-29T10:32:30Z",
+   "artists": [
+    {
+     "_id": "2crPPfVdmrxn5yUHLQVqOI",
+     "name": "Ceylan Ertem",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "6ZjZWh6klPnRyaFgfMEIdC",
+    "name": "Zal\u0131m",
+    "release_date": "2017-12-11",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "34XGtFK8D0m0fsQoZd0BI2",
+   "name": "Kad\u0131n\u0131m",
+   "duration_ms": 331680,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-05-29T10:32:41Z",
+   "artists": [
+    {
+     "_id": "2crPPfVdmrxn5yUHLQVqOI",
+     "name": "Ceylan Ertem",
+     "albums": null,
+     "popular_tracks": null
+    },
+    {
+     "_id": "4uGB0nZ5d1iCXS3sHR3pzm",
+     "name": "G\u00f6khan T\u00fcrkmen",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "2PbY6wYPb8mN4TvJKy13ps",
+    "name": "Duyuyor Musun?",
+    "release_date": "2022-08-05",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "5afKJ9yqFQ5L2FxuGiZMPQ",
+   "name": "Over Those Hills",
+   "duration_ms": 191949,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-05-29T10:33:18Z",
+   "artists": [
+    {
+     "_id": "6Rx1JKzBrSzoKQtmbVmBnM",
+     "name": "Hayley Williams",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "3JSvIZCtxK4fUywBK41129",
+    "name": "FLOWERS for VASES / descansos",
+    "release_date": "2021-02-05",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "25kdk3LBdjCl5iKWu0Vstu",
+   "name": "alev alev",
+   "duration_ms": 247227,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-05-29T10:33:29Z",
+   "artists": [
+    {
+     "_id": "40KlwpvpKEQtZTJgbml8lT",
+     "name": "Teoman",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "2kxf29tnLloVpRzRnCm7xM",
+    "name": "alev alev",
+    "release_date": "2023-05-05",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "2tLrKX44QWoyfyHpLNgKd9",
+   "name": "Uyut Beni",
+   "duration_ms": 299490,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-05-29T10:33:39Z",
+   "artists": [
+    {
+     "_id": "5QpQ8Zu2s3aMjYf88au1Le",
+     "name": "Kurban",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "6C4mld4qfPk7d3g4dGqnMl",
+    "name": "\u0130nsanlar",
+    "release_date": "2005-05-06",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "4pIQKevkLSOPcEjFpqn71W",
+   "name": "Ya\u015famak \u0130stemem",
+   "duration_ms": 352432,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-05-29T10:33:44Z",
+   "artists": [
+    {
+     "_id": "4inwzuD2iBZK8Ck3ft7Wlk",
+     "name": "Yavuz \u00c7etin",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "167PqY38yD08bsHTZH4Wie",
+    "name": "Sat\u0131l\u0131k",
+    "release_date": "2001-01-31",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "0Jz0Qr8O11reDVtaBbMFnr",
+   "name": "D\u00fcnya",
+   "duration_ms": 299760,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-05-29T10:33:58Z",
+   "artists": [
+    {
+     "_id": "4inwzuD2iBZK8Ck3ft7Wlk",
+     "name": "Yavuz \u00c7etin",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "1kqpjWc4B5MLRltt5Bd3Tv",
+    "name": "\u0130lk",
+    "release_date": "1997-11-17",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "6zC0mpGYwbNTpk9SKwh08f",
+   "name": "Wonderful Tonight",
+   "duration_ms": 225026,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-05-29T10:34:04Z",
+   "artists": [
+    {
+     "_id": "6PAt558ZEZl0DmdXlnjMgD",
+     "name": "Eric Clapton",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "5MAL7e4EnKXW1hFg6NbFqP",
+    "name": "Slowhand 35th Anniversary (Super Deluxe)",
+    "release_date": "1977-11-01",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "0lDmUoccwUL5R79motsrsW",
+   "name": "Knockin' On Heaven's Door - Live at The Royal Albert Hall",
+   "duration_ms": 371413,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-05-29T10:34:12Z",
+   "artists": [
+    {
+     "_id": "6PAt558ZEZl0DmdXlnjMgD",
+     "name": "Eric Clapton",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "2Vp01eGIEUGBsZfQnIJml7",
+    "name": "Knockin' On Heaven's Door (Live at The Royal Albert Hall)",
+    "release_date": "2023-05-17",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "5phbwzg5d2MqNAoc0435Zu",
+   "name": "Layla - Acoustic Live",
+   "duration_ms": 289026,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-05-29T10:34:20Z",
+   "artists": [
+    {
+     "_id": "6PAt558ZEZl0DmdXlnjMgD",
+     "name": "Eric Clapton",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "2lORE9lVX7YUCZfiFVnKWa",
+    "name": "Unplugged (Deluxe Edition) (Live)",
+    "release_date": "1992-08-25",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "0UOxp1BpnD8uPQMKU4wKjz",
+   "name": "I Shot The Sheriff",
+   "duration_ms": 263746,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-05-29T10:34:35Z",
+   "artists": [
+    {
+     "_id": "6PAt558ZEZl0DmdXlnjMgD",
+     "name": "Eric Clapton",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "408nODJ1r3nO7f3qWkCrCB",
+    "name": "461 Ocean Blvd. (Deluxe Edition)",
+    "release_date": "1974-07-01",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "3f7OyfSoDbQC0LRDQiytPp",
+   "name": "Mountain at My Gates",
+   "duration_ms": 244293,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-05-29T10:34:45Z",
+   "artists": [
+    {
+     "_id": "6FQqZYVfTNQ1pCqfkwVFEa",
+     "name": "Foals",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "0RyCpIKlCV0kgEuzrmp73O",
+    "name": "What Went Down",
+    "release_date": "2015-08-28",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "1yYqHLJ6yJDJTk3rwlR94K",
+   "name": "W. Monroe",
+   "duration_ms": 163889,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-07-21T10:02:55Z",
+   "artists": [
+    {
+     "_id": "4AcKpAKt1uAsZm1qFrIU1Z",
+     "name": "LDRDO",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "5xC8GrKSqis5fhr8m8xzJi",
+    "name": "Lost in the Fire",
+    "release_date": "2021-04-05",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "6hgoYQDUcPyCz7LcTUHKxa",
+   "name": "Calm Down",
+   "duration_ms": 219813,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-08-13T10:20:26Z",
+   "artists": [
+    {
+     "_id": "46pWGuE3dSwY3bMMXGBvVS",
+     "name": "Rema",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "37iaWiKMa9YBbEDlw5c3Qh",
+    "name": "Calm Down",
+    "release_date": "2022-02-10",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "0HQun5E7ZmSN0XdIfUAquu",
+   "name": "Hi\u00e7 I\u015f\u0131k Yok",
+   "duration_ms": 427249,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-08-15T07:30:41Z",
+   "artists": [
+    {
+     "_id": "4fR3W8XFXsqHB8f8IqEr1y",
+     "name": "No.1",
+     "albums": null,
+     "popular_tracks": null
+    },
+    {
+     "_id": "5IAxUWLiTMsvc1oWPrczNj",
+     "name": "Melek Mosso",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "1eZpcdbKF4cfDcooW7hTkO",
+    "name": "Siyah Bayrak",
+    "release_date": "2017-12-11",
+    "artists": null,
+    "tracks": null
+   }
+  },
+  {
+   "_id": "6ZHCQehGCpGWTi6wEzs8vf",
+   "name": "While My Guitar Gently Weeps - Live",
+   "duration_ms": 357104,
+   "added_by": {
+    "_id": "oaydemir4898",
+    "name": "oaydemir4898",
+    "playlists": null
+   },
+   "added_at": "2023-08-29T22:12:55Z",
+   "artists": [
+    {
+     "_id": "4STHEaNw4mPZ2tzheohgXB",
+     "name": "Paul McCartney",
+     "albums": null,
+     "popular_tracks": null
+    },
+    {
+     "_id": "6PAt558ZEZl0DmdXlnjMgD",
+     "name": "Eric Clapton",
+     "albums": null,
+     "popular_tracks": null
+    }
+   ],
+   "album": {
+    "_id": "6EvU9hFh2ZPeumNOFy1dAu",
+    "name": "Concert For George (Live)",
+    "release_date": "2018-02-23",
+    "artists": null,
+    "tracks": null
+   }
+  }
+ ]
+}

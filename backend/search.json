@@ -1,0 +1,26 @@
+{
+ "display_name": "onoraydemir",
+ "external_urls": {
+  "spotify": "https://open.spotify.com/user/oaydemir4898"
+ },
+ "href": "https://api.spotify.com/v1/users/oaydemir4898",
+ "id": "oaydemir4898",
+ "images": [
+  {
+   "url": "https://i.scdn.co/image/ab67757000003b8218e913a9cd5d66d99eb97cec",
+   "height": 64,
+   "width": 64
+  },
+  {
+   "url": "https://i.scdn.co/image/ab6775700000ee8518e913a9cd5d66d99eb97cec",
+   "height": 300,
+   "width": 300
+  }
+ ],
+ "type": "user",
+ "uri": "spotify:user:oaydemir4898",
+ "followers": {
+  "href": null,
+  "total": 12
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "_id": "6R02OztAhwVDuz4BPSDLJM",
+ "name": "Seni Yazd\u0131m",
+ "release_date": "2022-04-22",
+ "artists": [
+  {
+   "_id": "6z7oJJfl0VPdH5sFgogqMq",
+   "name": "Mary Jane",
+   "albums": null,
+   "popular_tracks": null
+  }
+ ],
+ "tracks": [
+  {
+   "_id": "0oech8xP90e4w4DqUfHTLV",
+   "name": "Seni Yazd\u0131m",
+   "duration_ms": 265642,
+   "added_by": null,
+   "added_at": null,
+   "artists": null,
+   "album": null
+  }
+ ]
+}
